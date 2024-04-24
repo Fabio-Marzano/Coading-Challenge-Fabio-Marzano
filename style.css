@@ -1,0 +1,62 @@
+*{
+  box-sizing: border-box;
+  font-family: helvetica;
+}
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container{
+  width: 900px;
+  height: 700px;
+  margin:auto;
+  margin-top:25px;
+  margin-bottom: 50px;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+header{
+  text-align: center;
+  padding-top: 25px;
+  color: #00ff00;
+}
+nav > div{
+  width: 80%;
+  margin:auto;
+  background-color: #00ff00;
+  padding: 10px;
+  text-align: center;
+}
+main > div{
+  color:white;
+  width:80%;
+  margin:auto;
+}
+div > span:first-child{
+  font-size: 20px;
+  margin-top: 20px;
+}
+div > span {
+  display: block;
+  padding: 3px;
+}
+.location:before{
+  content: "\21A6";
+}
+.barra{
+  border-radius: 5px;
+  padding: 12px;
+}
+.monopattino1{
+  background-color: darkorange;
+  width: 33%;
+}
+.monopattino2{
+  background-color: darkgreen;
+  width: 70%;
+}
+.monopattino3{
+  background-color: darkred;
+  width: 45%;
+}
